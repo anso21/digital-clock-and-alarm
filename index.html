@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-light.css">
+    <link rel="shortcut icon" href="assets/images/" type="image/x-icon">
+    <title>Digital Clock</title>
+</head>
+<body>
+
+    <div class="selector">
+        <img class="indicator" src="assets/images/sun.png">
+    </div>
+
+    <main>
+        <div class="container">
+            <div id="screen">
+                <div id="days-field">
+                    <span class="days">MON</span>
+                    <span class="days">TUE</span>
+                    <span class="days">WEN</span>
+                    <span class="days">THU</span>
+                    <span class="days">FRI</span>
+                    <span class="days">SAT</span>
+                    <span class="days">SUN</span>
+                </div>
+
+                <img id="clock-img" src="assets/images/clock-dark.png" alt="clock">
+                <div id="clock"></div>
+            </div>
+        </div>
+
+        <div class="set-alarm">
+            <span class="alarm-text">
+                Set Alarm
+            </span>
+            <input id="time" type="time" class="time">
+        </div>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

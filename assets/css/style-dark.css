@@ -1,0 +1,23 @@
+/* Dark style */
+
+.container{
+    background-color: rgba(0, 0, 0, 0.589);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.493);
+}
+
+#screen{
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+#clock{
+    color: white;
+}
+
+.days, .formats{
+    color: rgba(255, 255, 255, 0.48);
+}
+
+.active{
+    color: white;
+}
+

@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "digital";
+    src: url("../font/digital-7.ttf");
+
+}
+
+main{
+    width: 450px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+#clock{
+    font-family: "digital";
+    font-weight: bold;
+    font-size: 60px;
+    display: inline;
+}
+
+.days{
+    font-family: "century gothic";
+    font-weight: bold;
+    font-size: 14px;
+    margin: 8px;
+}
+
+#format-field{
+    display: inline;
+}
+
+.formats{
+    font-family: "century gothic";
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+#screen{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container{
+    padding: 50px;
+    border-radius: 5px;
+}
+
+
+#clock-img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+.selector{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 30px;
+}
+
+.indicator{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.indicate{
+    transform: translateX(20px);
+}
+
+.set-alarm{
+    margin: 10px;
+
+}
+
+.time{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.alarm-text{
+    background-color: rgb(26, 88, 202);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1em;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
